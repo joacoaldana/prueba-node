@@ -1,0 +1,11 @@
+git init
+git config user.name "joacoaldana"
+git config user.email "joaquin.ezequiel.aldana@gmail.com"
+git remote add origin https://github.com/joacoaldana/prueba-node.git
+git remote -v
+git clone https://github.com/joacoaldana/prueba-node.git
+git status
+git add app.js 
+git status
+git commit -m "mi primer commit"
+git push origin master
